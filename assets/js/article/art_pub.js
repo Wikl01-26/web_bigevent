@@ -18,7 +18,7 @@ $(function () {
                 // 调用模板引擎，渲染分类的下拉菜单
                 let htmlStr = template('tpl-cate', res)
                 $('[name=cate_id]').html(htmlStr)
-                // 调用 form.rendedr() 方法
+                // 调用 form.render() 方法
                 form.render()
             }
         })
