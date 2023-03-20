@@ -111,7 +111,7 @@ $(function () {
                 q.pagesize = obj.limit
                 // 根据最新的 q 获取对应的数据列表，并渲染表格
                 // initTable()
-                if (first) {
+                if (!first) {
                     initTable()
                 }
             }
